@@ -5,9 +5,10 @@ working on a full stack login application with react and node
 
 I am working on a simple React and Express backend with user authentication.
 
-Passport
-Node
-MongoDB
-VS code
-💓
+- Passport
+- Node
+- MongoDB
+- React
+- VS code
+- 💓
 Giordi Fungula
