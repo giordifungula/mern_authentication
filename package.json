@@ -1,0 +1,39 @@
+{
+  "name": "mern_authentication",
+  "version": "1.0.0",
+  "description": "React and Node App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giordifungula/mern_authentication.git"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "Giordi Fungula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giordifungula/mern_authentication/issues"
+  },
+  "homepage": "https://github.com/giordifungula/mern_authentication#readme",
+  "dependencies": {
+    "bcrypt": "3.0.6",
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "concurrently": "5.0.0",
+    "express": "4.17.1",
+    "is-empty": "1.2.0",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.7.7",
+    "passport": "0.4.0",
+    "passport-jwt": "4.0.0",
+    "validator": "12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.4"
+  }
+}
