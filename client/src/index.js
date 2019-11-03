@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { combineReducers } from "redux";
-import authReducer from "./authReducer";
-import errorReducer from "./errorReducer";
+
 import './index.css';
 import App from './App';
 
 import * as serviceWorker from './serviceWorker';
 
-export default combineReducers({
-    auth: authReducer,
-    errors: errorReducer
-  });
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
